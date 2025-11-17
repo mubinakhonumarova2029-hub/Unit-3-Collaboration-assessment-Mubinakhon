@@ -8,13 +8,12 @@ At **Treelife**, we're passionate about forests and green living.
 
 Our mission is to:
 
-<ul>
-  <li>Educate people about the different types of trees.</li>
-  <li>Promote sustainable forestry.</li>
-  <li>Encourage reforestation projects.</li>
+- Educate people about the different types of trees.
+- Promote sustainable forestry.
+- Encourage reforestation projects.
 
-  > "the best times to plant a tree was 20 years ago. The second best times is now."
-  >- Chinese Proverb
+> "the best times to plant a tree was 20 years ago. The second best times is now."
+>- Chinese Proverb
 
   ---
 
@@ -31,7 +30,7 @@ Our mission is to:
  ---
 
  #### Pine Tree 
- **Scientific Name:**Pinus
+ **Scientific Name:** Pinus
 
  Evergreen and aromatic, pine trees thrive in colder region. 
 
@@ -41,6 +40,8 @@ Our mission is to:
 
 ### Tree Identication Tool
 You can use this simple **Javascript** function to identify a tree by its characteristics:
+
+```
 function identify_tree(leaf_shape, region)(
   if (leaf_shape=="needle" && region== "cold")(
     return "Pine Tree"
@@ -48,5 +49,5 @@ function identify_tree(leaf_shape, region)(
         return "oak Tree"
         else
         return "Unkown Tree"
-
+```
         
